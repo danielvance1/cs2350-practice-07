@@ -5,3 +5,39 @@
 }
 
 /* TODO */
+
+body {
+  background: beige;
+}
+
+.rectangle {
+  width:60%;
+  height:200px;
+  background: grey;
+  font-size: 45px;
+  overflow-wrap: normal;
+  margin-right:40%;
+  line-height: 200px;
+  text-align:center;
+}
+
+.circle {
+  width:300px;
+  height:300px;
+  border-radius:150px;
+  background: lightblue;
+  font-size: 45px;
+  overflow-wrap: normal;
+  margin-right:calc(100%-300px);
+  line-height: 300px;
+  text-align:center;
+}
+
+.par {
+  width:calc(100%/3);
+  height:auto;
+  background: lightgrey;
+  float:left;
+  padding:10px;
+  border: solid black 3px;
+}
